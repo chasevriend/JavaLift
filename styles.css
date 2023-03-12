@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    color: #444444;
+}
+
+body {
+    background-color: #feffdb;
+}
+
+/* nav bar */
+/* .header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+    background-color: #ff8b00;
+} */
+
+.header button {
+    padding: 10px;
+}
+
+/* side entry form */
+.container {
+    display: flex;
+}
+
+.side-form {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    background-color: #ffc60b;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-color: #ff8b00;
+    min-height: 100vh;
+}
+
+.side-form h1 {
+    font-size: 45px;
+    background-color: #ffc60b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.side-form p {
+    font-size: 25px;
+    text-align: center;
+    background-color: #ffc60b;
+    margin-top: 10px;
+}
+
+.side-form form {
+    background-color: #ffc60b;
+    margin-left: 10px;
+}
+
+.side-form form button {
+    background-color: #ff8b00;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 10%;
+    color: black;
+    margin-top: 10px;
+    border: 4px 4px;
+}
+
+.side-form form button:hover {
+    box-shadow: 3px 3px #444444;
+}
+
+.side-form form input {
+    background-color: #feffdb;
+}
+
+.form2 {
+    margin-top: 30px;
+}
+
+.stats {
+    margin-top: 25px;
+    margin-left: 10px;
+    background-color: #ff8b00;
+    height: 22vh;
+    padding: 10px 15px;
+    border-radius: 10%;
+}
+
+.stats p {
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+.btns button {
+    background-color: #ff8b00;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 10%;
+    color: black;
+    margin-top: 10px;
+}
+
+/* table */
+.entries {
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 0.9em;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #ffc60b;
+    color: #444444;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+}

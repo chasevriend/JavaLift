@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaLift</title>
+</head>
+<body>
+    <!-- add these into a nav bar at the top of the page to shift from viewing weights and personal records -->
+    <!-- <div class="header">
+        <a href="index.html"><button>BodyWeight</button></a>
+        <a href="pr.html"><button>Personal Records</button></a>
+    </div> -->
+    <div class="container">
+        <div class="side-form">
+            <h1>JavaLift</h1>
+            <p>Program Your Body</p>
+            <div class="form">
+                <form>
+                    <label>Date</label><br>
+                    <input type="date" id="date" required><br>
+                    <label>Body-Weight</label><br>
+                    <input type="number" id="weight" min="1" required><br>
+                    <label>Did You Follow Diet Yesterday?</label><br>
+                    <input type="checkbox" id="diet"><br>
+                    <label>Did You Exercise Yesterday?</label><br>
+                    <input type="checkbox" id="exercise"><br>
+                    <button type="submit" id="post" onclick="addEntry()">Post Entry</button>
+                </form>
+            </div>
+            <!-- <div class="stats">
+                <p>Starting Weight:</p>
+                <p id="startingWeightEl"><strong>230lbs</strong></p>
+                <p>Weight Lost:</p>    
+                <strong><p id="weightLostEl"></p></strong>
+            </div> -->
+            <hr>
+            <div class="form2">
+                <form>
+                    <label>Date</label><br>
+                    <input type="date" id="date-el" required><br>
+                    <label>Exercise</label><br>
+                    <input type="text" id="exercise-el"><br>
+                    <label>Weight</label><br>
+                    <input type="number" min="1" id="weight-el" required><br>
+                    <label>Reps</label><br>
+                    <input type="number" min="1" id="reps-el" required><br>
+                    <button id="post2" type="submit" onclick="addPR()">Post PR</button>   
+                </form>
+            </div>
+        </div>
+        <main class="content">
+            <div class="entries">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Body-Weight</th>
+                            <th>Diet</th>
+                            <th>Exercise</th>
+                            <!-- <th>Change</th> -->
+                        </tr>
+                    </thead>
+                    <tbody class="table-body">
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="entries">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Exercise</th>
+                            <th>Weight</th>
+                            <th>Reps</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body2">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="stats">
+                <p>Starting Weight:</p>
+                <p id="startingWeightEl"><strong>230lbs</strong></p>
+                <p>Weight Lost:</p>    
+                <strong><p id="weightLostEl"></p></strong>
+            </div>
+        </main>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
