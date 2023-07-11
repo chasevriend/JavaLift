@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+
+:root {
+  --yellow: #F2B705;
+  --white: #F7F7F7;
+  --gray: #999999;
+  --blue: #3B74BF;
+  --bg: #3350A6;
+  --tan: #F2C6A0;
+  --peach: #D97971;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
