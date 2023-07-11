@@ -8,20 +8,20 @@ const Form = () => {
             <div className='form'>
                 <div className='form__container'>
                     <div className='form__content'>
-                        <h2>Free Program Quiz</h2>
+                        <h2>Free Fitness Quiz</h2>
                         <p className='errorMsg'>All fields required!</p>
                         <form>
                             <div className='form__cell'>
                                 <label className='form__label'>
-                                    What is your current Body-Weight?
+                                    Body Weight
                                 </label>
-                                <input type='number' required min='1' max='700' id='bw' />
+                                <input type='number' placeholder='BW in lbs' required min='1' max='700' id='bw' />
                             </div>
                             <div className='form__cell'>
                                 <label className='form__label'>
-                                    What is your goal?
+                                    Primary Goal
                                 </label>
-                                <select>
+                                <select required>
                                     <option>Select Goal</option>
                                     <option>Build Muscle</option>
                                     <option>Lose Fat</option>
@@ -30,16 +30,16 @@ const Form = () => {
                             </div>
                             <div className='form__cell'>
                                 <label className='form__label'>
-                                    What is your current fitness level?
+                                    Fitness Level
                                 </label>
-                                <select>
+                                <select required>
                                     <option>Select fitness level</option>
                                     <option>Beginner</option>
                                     <option>Intermediate</option>
                                     <option>Advanced</option>
                                 </select>
                             </div>
-                            <button type='button' className='form__btn'>Generate Program</button>
+                            <button type='button' className='form__btn'>Generate</button>
                         </form>
                     </div>
                 </div>

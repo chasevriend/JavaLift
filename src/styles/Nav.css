@@ -99,6 +99,7 @@
 .nav__links {
     display: flex;
     gap: 15px;
+    transition: .5s;
 }
 
 .nav__link {
@@ -113,10 +114,11 @@
     padding: 10px 25px;
     color: var(--bg);
     border: 2px solid var(--bg);
+    transition: .5s;
 }
 
 .navBtn__exercise:hover {
-    box-shadow: 0 10px 10px var(--blue);
+    box-shadow: 0 5px 5px var(--blue);
 }
 
 .navBtn__start {
@@ -125,11 +127,11 @@
     padding: 10px 25px;
     background-color: var(--yellow);
     border: 2px solid var(--yellow);
-    color: white;
+    transition: .5s;
 }
 
 .navBtn__start:hover {
-    box-shadow: 0 10px 10px 0 var(--yellow);
+    box-shadow: 0 5px 5px 0 var(--yellow);
 }
 
 @media (max-width: 950px) {

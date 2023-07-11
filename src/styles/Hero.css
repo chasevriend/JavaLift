@@ -33,10 +33,11 @@
     background-color: var(--bg);
     border: 2px solid var(--bg);
     color: white;
+    transition: .5s;
 }
 
 .heroBtn__program:hover {
-    box-shadow: 0 10px 10px 0 var(--bg);
+    box-shadow: 0 8px 8px 0 var(--bg);
 }
 
 .hero__img {

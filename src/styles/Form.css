@@ -16,6 +16,11 @@
     color: black;
 }
 
+.form__container h2 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
 .errorMsg {
     color: #721c24;
     background-color: #f8d7da;
@@ -25,6 +30,41 @@
     margin-bottom: 10px;
     border: 1px solid transparent;
     font-size: 15px;
-    font-weight: 500;
     display: none;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__cell {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.form__cell input, select {
+    padding: 10px 0;
+    border: none;
+    font-size: 15px;
+    color: var(--gray);
+}
+
+.form__btn {
+    padding: 10px 25px;
+    font-size: 18px; 
+    background-color: var(--bg);
+    color: white;
+    font-weight: 600;
+    border: 1px solid var(--bg);
 }
