@@ -1,0 +1,30 @@
+.form {
+    padding: 20px;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    /* box-shadow: 0 15px 15px 0 #F3F3F6; */
+}
+
+.form__container {
+    background-color: white;
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.errorMsg {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+}
