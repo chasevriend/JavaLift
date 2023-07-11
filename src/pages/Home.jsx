@@ -1,4 +1,5 @@
 import React from 'react'
+import About from '../components/About'
 import Form from '../components/Form'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
@@ -11,7 +12,7 @@ const Home = () => {
         <Hero />
         <Form />
         <Programs />
-
+        <About />
         {/* 
 
         About us 
