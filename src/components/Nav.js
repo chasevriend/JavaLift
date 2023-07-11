@@ -38,7 +38,7 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={openNav} to="/contact">
+                            <Link onClick={openNav} to="/">
                                 Contact
                             </Link>
                         </li>

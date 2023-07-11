@@ -32,7 +32,7 @@
 }
 
 .mobile-nav__links a:hover {
-    color: #ff4d30;
+    color: var(--bg);
 }
 
 .mobile-nav__close {
@@ -55,7 +55,7 @@
 }
 
 .mobile-nav__close:hover {
-    color: #ff4d30;
+    color: var(--bg);
 }
 
 .mobile-nav__hamburger {
@@ -66,7 +66,7 @@
 }
 
 .mobile-nav__hamburgerIcon:hover {
-    color: #ff4d30;
+    color: var(--bg);
 }
 
 @media (max-width: 950px) {
@@ -91,7 +91,7 @@
 }
 
 #nav__logo {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
     color: var(--bg);
 }
@@ -125,6 +125,7 @@
     padding: 10px 25px;
     background-color: var(--yellow);
     border: 2px solid var(--yellow);
+    color: white;
 }
 
 .navBtn__start:hover {
