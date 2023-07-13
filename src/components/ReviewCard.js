@@ -1,5 +1,5 @@
 import React from 'react';
-import '.../styles/Reviews.css'
+import '../styles/Reviews.css'
 
 const ReviewCard = ({ review }) => {
   return (
@@ -18,4 +18,4 @@ const ReviewCard = ({ review }) => {
   )
 }
 
-export default ReviewCard
+export default ReviewCard;

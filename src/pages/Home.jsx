@@ -5,7 +5,6 @@ import Form from '../components/Form'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 import Programs from '../components/Programs'
-import Reviews from '../components/Reviews'
 
 const Home = () => {
   return (
@@ -15,7 +14,7 @@ const Home = () => {
         <Form />
         <Programs />
         <About />
-        <Reviews /> 
+        {/* <Reviews />  */}
         {/* Pricing  */}
         <Footer />
         

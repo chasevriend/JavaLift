@@ -43,3 +43,19 @@
     padding: 10px;
     font-size: 25px;
 }
+
+.reviews__card {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviewCard {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.reviewCard__next {
+    transform: translateX(-100%);
+}

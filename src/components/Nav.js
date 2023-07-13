@@ -68,7 +68,7 @@ const Nav = () => {
                         </li>
                     </ul>
                     <div className="nav__btns">
-                        <Link className="navBtn__exercise" to="/">
+                        <Link className="navBtn__exercise" to="/LibraryPg">
                             Exercises
                         </Link>
                         <Link className="navBtn__start" to="/">
