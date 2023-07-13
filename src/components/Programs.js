@@ -18,7 +18,7 @@ const Programs = () => {
                 </div>
                 <div className='prog'>
                     <h1>🏃</h1>
-                    <h3>Fat Loss</h3>
+                    <h3>Cardio & Endurance</h3>
                     <p>Increase your endurance and physical strength by combining cardio and weightlifting.</p>
                     <h5>Learn More</h5>
                 </div>
