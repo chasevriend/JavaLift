@@ -17,4 +17,12 @@
 .footer__logo {
     font-size: 30px;
     font-family: 900;
+    color: white;
+}
+
+.footer__container p {
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 0;
 }

@@ -15,19 +15,12 @@ const Home = () => {
         <Form />
         <Programs />
         <About />
-        {/* <Reviews /> */}
+        <Reviews /> 
+        {/* Pricing  */}
         <Footer />
-        {/*
-        Nav
-        Hero
-        Form
-        Programs
-        About
-        Reviews
-        Footer 
-        */}
+        
     </div>
   )
 }
 
-export default Home
+export default Home;

@@ -30,12 +30,13 @@
 .about__num {
     background-color: rgb(155, 169, 206);
     color: var(--bg);
-    padding: 10px 12px;
+    padding: 10px 15px;
     border-radius: 50%;
 }
 
 .about__content span p {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .about__img {
