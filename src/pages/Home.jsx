@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Form from '../components/Form'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
+import Pricing from '../components/Pricing'
 import Programs from '../components/Programs'
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
         <Form />
         <Programs />
         <About />
-        {/* Pricing  */}
+        <Pricing />
         <Footer />
         
     </div>
