@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Pricing.css';
 
 const Pricing = () => {
   return (
@@ -14,81 +15,90 @@ const Pricing = () => {
             <div className='pricing__container'>
                 <div className='pricing__cell'>
                     <p className='pricing__head'>Basic Plan</p>
-                    <h3>FREE</h3>
-                    <p>per month</p>
+                    <span className='price'>
+                        <h3>FREE</h3>
+                        <p>per month</p>
+                    </span>
+                    <hr></hr>
                     <ul>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             1 Training program
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Free fitness consultation
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Tracking PR's progression
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Tracking Bodyweight's progression
                         </li>
                     </ul>
                 </div>
                 <div className='pricing__cell'>
-                    <p className='pricing__head'>Basic Plan</p>
-                    <h3>FREE</h3>
-                    <p>per month</p>
+                    <p className='pricing__head'>Elite Plan</p>
+                    <span className='price'>
+                        <h3>$8.99</h3>
+                        <p>per month</p>
+                    </span>
+                    <hr></hr>
                     <ul>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             2 training programs
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Free fitness consultation
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Tracking PR's progression
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Tracking Bodyweight's progression
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             24 Hour contactable trainers
                         </li>
                     </ul>
                 </div>
                 <div className='pricing__cell'>
-                    <p className='pricing__head'>Basic Plan</p>
-                    <h3>FREE</h3>
-                    <p>per month</p>
+                    <p className='pricing__head'>Premier Plan</p>
+                    <span className='price'>
+                        <h3>$12.99</h3>
+                        <p>per month</p>
+                    </span>
+                    <hr></hr>
                     <ul>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             5 training programs
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Free fitness consultation
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Tracking PR's progression
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Tracking Bodyweight's progression
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             24 hour online personal trainers
                         </li>
                         <li>
-                            &#10003;
+                            <span className='check'>&#10003;</span>
                             Customizable Programs
                         </li>
                     </ul>

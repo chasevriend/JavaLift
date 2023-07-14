@@ -1,0 +1,97 @@
+.pricing {
+    margin-top: 10vh;
+    padding: 20px;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing__header {
+    text-align: center;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing__header h2 {
+    font-size: 30px;
+}
+
+.pricing__header p {
+    font-size: 18px;
+    color: var(--gray);
+    padding: 10px;
+}
+
+.pricing__container {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.pricing__cell {
+    border: 2px solid #F3F3F6; 
+    box-shadow: 0 10px 10px 0 #F3F3F6;
+    padding: 20px;
+}
+
+.pricing__head {
+    padding: 10px;
+    text-align: center;
+    color: var(--bg);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price {
+    padding: 20px;
+    text-align: center;
+}
+
+.price p {
+    color: var(--gray);
+}
+
+.pricing__cell h3 {
+    font-size: 20px;
+}
+
+.pricing__cell ul li {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.pricing__cell span h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.pricing__cell hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.check {
+    background-color: rgb(155, 169, 206);
+    color: var(--bg);
+    padding: 5px;
+    border-radius: 25%;
+    font-size: 16px;
+}
+
+.pricing__btn {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--yellow);
+    color: black;
+    border: 1px solid var(--yellow);
+}
