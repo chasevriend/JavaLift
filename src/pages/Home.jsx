@@ -8,18 +8,17 @@ import Pricing from '../components/Pricing'
 import Programs from '../components/Programs'
 
 const Home = () => {
-  return (
-    <div>
-        <Nav />
-        <Hero />
-        <Form />
-        <Programs />
-        <About />
-        <Pricing />
-        <Footer />
-        
-    </div>
-  )
+    return (
+      <div>
+          <Nav />
+          <Hero />
+          <Form />
+          <Programs />
+          <About />
+          <Pricing />
+          <Footer />
+      </div>
+    )
 }
 
 export default Home;

@@ -83,15 +83,3 @@
     font-size: 16px;
 }
 
-.pricing__btn {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 10px 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--yellow);
-    color: black;
-    border: 1px solid var(--yellow);
-}

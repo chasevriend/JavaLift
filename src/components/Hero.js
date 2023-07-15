@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1>Build and Deploy Your Dream Body</h1>
                     <p>With our programs and exercise library, your dream body is just a commit away.</p>
                     <div className='hero__btns'>
-                        <Link to='/ProgramPg' className='heroBtn__program'>
+                        <Link to='/LibraryPg' className='heroBtn__program'>
                             View Exercises
                         </Link>
                     </div>
