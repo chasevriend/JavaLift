@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 import '../styles/Exercises.css'
+import { exerciseOptions, FetchData } from '../utils/FetchData'
 
 const Search = () => {
     const [search, setSearch] = useState('')
 
     const handleSearch = async () => {
         if(search) {
-            const exercisesData = await fetchData()
+            const exercisesData = await 
+            FetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
+
+            console.log(exercisesData)
         }
     }
     
