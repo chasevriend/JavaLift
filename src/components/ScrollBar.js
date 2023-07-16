@@ -7,18 +7,19 @@ import { Box } from '@mui/system';
 
 const ScrollBar = ({ data, muscle, setMuscle }) => {
     return (
-        <ScrollMenu>
+        <>
             {data.map((item) => (
-                <h3
+                <div
+                    className='scroll__item'
                     key={item.id || item}
                     title={item.id || item}
                     itemId={item.id || item}
                     m=" 0 50px"
                 >
                     <Muscle item={item} muscle={muscle} setMuscle={setMuscle} />
-                </h3>
+                </div>
             ))}
-        </ScrollMenu>
+        </>
     )
 }
 
