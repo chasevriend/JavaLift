@@ -27,8 +27,3 @@
     border: 2px solid var(--bg);
     cursor: pointer;
 }
-
-.muscle__container {
-    display: flex;
-    justify-content: center;
-}

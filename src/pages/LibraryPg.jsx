@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import Search from '../components/Search'
@@ -18,9 +19,9 @@ const LibraryPg = () => {
       />
       <Exercises
         setExercises={setExercises} 
-        muscle={muscle} 
+        exercises={exercises} 
         setMuscle={setMuscle} 
-      />
+      /> 
       <Footer />
     </>
   )
