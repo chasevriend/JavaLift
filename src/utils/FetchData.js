@@ -1,3 +1,4 @@
+
 export const exerciseOptions = {
     method: 'GET',
     url: 'https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
