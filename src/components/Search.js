@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import '../styles/Exercises.css'
-import { exerciseOptions, FetchData } from '../utils/FetchData'
 
-const Search = () => {
+import '../styles/Exercises.css'
+
+import { exerciseOptions, FetchData } from '../utils/FetchData'
+import ScrollBar from './ScrollBar'
+import Muscle from './Muscle'
+
+const Search = ({ setExercises, muscle, setMuscle }) => {
     const [search, setSearch] = useState('')
-    const [exercises, setExercises] = useState([])
     const [muscles, setMuscles] = useState([])
 
     useEffect(() => {
@@ -47,6 +50,9 @@ const Search = () => {
                     onChange={(e) => setSearch(e.target.value.toLowerCase())} 
                 />
                 <button className='search__btn' onClick={handleSearch}>Search</button>
+            </div>
+            <div className='muscles__container'>
+                <ScrollBar data={muscles} muscle={muscle} setMuscle={setMuscle} />
             </div>
         </div>
     </>

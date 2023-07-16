@@ -1,0 +1,19 @@
+
+
+.muscle__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.muscle__img {
+    width: 5rem;
+    height: auto;
+}
+
+.muscle__btn {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
