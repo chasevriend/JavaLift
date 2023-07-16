@@ -27,10 +27,10 @@ const Search = ({ setExercises, muscle, setMuscle }) => {
             FetchData('https://exercisedb.p.rapidapi.com/exercises', exerciseOptions);
 
             const searchedExercises = exercisesData.filter(
-                (exercise) => exercise.name.toLowerCase().includes(search)
-                || exercise.bodyPart.toLowerCase().includes(search)
-                || exercise.target.toLowerCase().includes(search)
-                || exercise.equipment.toLowerCase().includes(search)
+                (item) => item.name.toLowerCase().includes(search)
+                || item.bodyPart.toLowerCase().includes(search)
+                || item.target.toLowerCase().includes(search)
+                || item.equipment.toLowerCase().includes(search)
             );
 
             setSearch('');
@@ -48,6 +48,7 @@ const Search = ({ setExercises, muscle, setMuscle }) => {
                     placeholder='Search Exercises' 
                     className='search__input'
                     onChange={(e) => setSearch(e.target.value.toLowerCase())} 
+                    value={search}
                 />
                 <button className='search__btn' onClick={handleSearch}>Search</button>
             </div>
