@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/javalift/static/css/main.a1d12d48.css",
-    "main.js": "/javalift/static/js/main.9886261c.js",
-    "static/media/hero.png": "/javalift/static/media/hero.aff1af3a2757f4d867d2.png",
-    "static/media/hero3.png": "/javalift/static/media/hero3.8ca58c7670e4ff45f837.png",
-    "index.html": "/javalift/index.html",
-    "main.a1d12d48.css.map": "/javalift/static/css/main.a1d12d48.css.map",
-    "main.9886261c.js.map": "/javalift/static/js/main.9886261c.js.map"
+    "main.css": "/Javalift/static/css/main.a1d12d48.css",
+    "main.js": "/Javalift/static/js/main.0de89b05.js",
+    "static/media/hero.png": "/Javalift/static/media/hero.aff1af3a2757f4d867d2.png",
+    "static/media/hero3.png": "/Javalift/static/media/hero3.8ca58c7670e4ff45f837.png",
+    "index.html": "/Javalift/index.html",
+    "main.a1d12d48.css.map": "/Javalift/static/css/main.a1d12d48.css.map",
+    "main.0de89b05.js.map": "/Javalift/static/js/main.0de89b05.js.map"
   },
   "entrypoints": [
     "static/css/main.a1d12d48.css",
-    "static/js/main.9886261c.js"
+    "static/js/main.0de89b05.js"
   ]
 }
