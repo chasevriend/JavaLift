@@ -19,4 +19,12 @@
     display: flex;
     overflow-x: scroll;
     padding: 20px;
+    align-items: center;
+}
+
+.muscle__name {
+    padding: 10px;
+    width: 75px;
+    font-size: 20px;
+    border: 1px solid var(--gray);
 }
