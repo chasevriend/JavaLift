@@ -83,3 +83,14 @@
     font-size: 16px;
 }
 
+@media (max-width: 850px) {
+    .pricing {
+        max-width: 100%;
+    }
+    .pricing__container {
+        flex-direction: column;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

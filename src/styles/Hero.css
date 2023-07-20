@@ -44,3 +44,18 @@
     width: 35rem;
     height: auto;
 }
+
+@media(max-width: 850px) {
+    .hero__container {
+        max-width: 90%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .hero__content {
+        text-align: center;
+    }
+    .hero__img {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+}

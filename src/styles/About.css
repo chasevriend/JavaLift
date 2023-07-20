@@ -43,3 +43,16 @@
     width: 30rem;
     height: auto;
 }
+
+@media(max-width: 850px) {
+    .about {
+        max-width: 100%;
+    }
+    .about__container {
+        flex-wrap: wrap-reverse;
+    }
+    .about__img {
+        max-width: 90%;
+        margin-top: 20px;
+    }
+}

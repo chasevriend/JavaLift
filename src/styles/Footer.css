@@ -26,3 +26,11 @@
     color: white;
     padding: 10px 0;
 }
+
+@media(max-width: 850px) {
+    .footer__container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
